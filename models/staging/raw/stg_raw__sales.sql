@@ -8,12 +8,12 @@ source as (
 
 renamed as (
 
-    select
-    date_date,
-    orders_id,
-    pdt_id,
-    revenue,
-    quantity
+    select 
+        date_date,
+        orders_id,
+        pdt_id,
+        revenue,
+        quantity
 
     from source
 
