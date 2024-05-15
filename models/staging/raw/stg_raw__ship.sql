@@ -19,11 +19,9 @@ renamed as (
 
 )
 
-SELECT 
-    orders_id,
-    shipping_fee,
-    logcost,
-    ship_cost
-FROM 
-    {{ source("raw","ship") }}
-
+select 
+orders_id,
+shipping_fee,
+logcost,
+ship_cost
+from renamed

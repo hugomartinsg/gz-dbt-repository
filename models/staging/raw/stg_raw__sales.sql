@@ -9,11 +9,11 @@ source as (
 renamed as (
 
     select
-        date_date,
-        orders_id,
-        pdt_id as products_id,
-        revenue,
-        quantity
+    date_date,
+    orders_id,
+    pdt_id,
+    revenue,
+    quantity
 
     from source
 
